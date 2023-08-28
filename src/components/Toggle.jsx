@@ -4,7 +4,7 @@ export default function Toggle() {
   const [toggle, setToggle] = useState(false);
 
   function toggleon() {
-    setToggle(toggle == "ON" ? "OFF" : "ON");
+    setToggle(toggle === "ON" ? "OFF" : "ON");
   }
 
   return (
