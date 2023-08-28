@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/instrumentofdarkness/React_useState.git",
+  "author": "instrumentofdarkness <127889101+instrumentofdarkness@users.noreply.github.com>",
+  "license": "MIT"
 }
