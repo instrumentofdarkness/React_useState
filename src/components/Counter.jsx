@@ -20,7 +20,7 @@ export default function Counter() {
     <div>
       <h1>Counter</h1>
       <button onClick={increment}>+</button>
-      <p>Value from state: {result}</p>
+      <h3>value: {result}</h3>
       <button onClick={decrement}>-</button>
     </div>
   );

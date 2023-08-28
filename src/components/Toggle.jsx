@@ -4,14 +4,14 @@ export default function Toggle() {
   const [toggle, setToggle] = useState(false);
 
   function toggleon() {
-    setToggle(!toggle);
+    setToggle(toggle == "ON" ? "OFF" : "ON");
   }
 
   return (
     <div>
       <h1>Toggle</h1>
-      <p> the toggle is on</p>
-      <button onClick={toggleon}>Toggle</button>
+      <h3> the toggle is {toggle}</h3>
+      <button onClick={toggleon}>toggle</button>
     </div>
   );
 }
